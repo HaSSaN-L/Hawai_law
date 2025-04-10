@@ -1,0 +1,303 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About Us",
+    "practiceAreas": "Practice Areas",
+    "attorneys": "Attorneys",
+    "blog": "Blog",
+    "faq": "FAQ",
+    "contact": "Contact Us"
+  },
+  "hero": {
+    "title": "Protecting Your\nRights and Interests",
+    "subtitle": "Our team of experienced attorneys can help you navigate the complex legal landscape and protect your interests with dedication and expertise.",
+    "consultation": "Free Consultation",
+    "services": "Our Services"
+  },
+  "whyChooseUs": {
+    "title": "Why Choose Us",
+    "subtitle": "Your Trusted Legal Partner",
+    "description": "With years of experience and a commitment to excellence, we provide the highest quality legal services to our clients.",
+    "features": {
+      "expertise": {
+        "title": "Expert Legal Team",
+        "description": "Our attorneys bring years of experience and deep expertise in various areas of law."
+      },
+      "availability": {
+        "title": "24/7 Availability",
+        "description": "We're always available to handle your urgent legal matters and concerns."
+      },
+      "clientFocused": {
+        "title": "Client-Focused Approach",
+        "description": "We prioritize your needs and work tirelessly to achieve the best possible outcomes."
+      },
+      "proven": {
+        "title": "Proven Track Record",
+        "description": "A history of successful cases and satisfied clients across the UAE."
+      }
+    }
+  },
+  "practiceAreas": {
+    "title": "Our Expertise",
+    "subtitle": "Practice Areas",
+    "description": "Our law firm specializes in various areas of law to provide comprehensive legal solutions for our clients.",
+    "areas": {
+      "civil": {
+        "title": "Civil Law",
+        "description": "Expert representation in civil disputes, contracts, and litigation matters to protect your rights and interests."
+      },
+      "corporate": {
+        "title": "Corporate Law",
+        "description": "Comprehensive legal services for businesses, including formation, compliance, and commercial transactions."
+      },
+      "family": {
+        "title": "Family Law",
+        "description": "Sensitive handling of family matters including divorce, custody, and inheritance with compassion and expertise."
+      },
+      "labor": {
+        "title": "Labor Law",
+        "description": "Protection of employee and employer rights, handling workplace disputes and employment contracts."
+      },
+      "realEstate": {
+        "title": "Real Estate Law",
+        "description": "Legal guidance for property transactions, leasing agreements, and real estate dispute resolution."
+      },
+      "criminal": {
+        "title": "Criminal Law",
+        "description": "Strong defense representation and protection of your rights in criminal proceedings."
+      }
+    }
+  },
+  "team": {
+    "title": "Our Team",
+    "subtitle": "Meet Our Legal Experts",
+    "description": "Our team of experienced attorneys is dedicated to providing exceptional legal services and protecting your interests.",
+    "scheduleConsultation": "Schedule a Consultation",
+    "contact": {
+      "email": "Send email",
+      "phone": "Call",
+      "linkedin": "Connect on LinkedIn"
+    },
+    "attorneys": {
+      "mahmoud": {
+        "name": "Mahmoud Al Hawai",
+        "position": "Founding Partner",
+        "specialization": "Corporate Law & Civil Litigation"
+      },
+      "sarah": {
+        "name": "Sarah Ahmed",
+        "position": "Senior Partner",
+        "specialization": "Family Law & Real Estate"
+      },
+      "omar": {
+        "name": "Omar Hassan",
+        "position": "Partner",
+        "specialization": "Criminal Law & Labor Law"
+      },
+      "fatima": {
+        "name": "Fatima Al Sayed",
+        "position": "Senior Associate",
+        "specialization": "Corporate Law & Banking"
+      }
+    }
+  },
+  "testimonials": {
+    "title": "Testimonials",
+    "subtitle": "What Our Clients Say",
+    "description": "Our commitment to excellence and client satisfaction has earned us the trust of individuals and businesses across the UAE.",
+    "readyToExperience": "Ready to Experience Our Excellence?",
+    "joinClients": "Join our satisfied clients and let us help you navigate your legal challenges with expertise and dedication.",
+    "navigation": {
+      "previous": "Previous",
+      "next": "Next",
+      "goToSlide": "Go to slide {{number}}"
+    },
+    "clients": {
+      "sarah": {
+        "name": "Sarah Johnson",
+        "position": "Business Owner",
+        "content": "Mahmoud Al Hawai's legal team provided exceptional service in handling our corporate matters. Their expertise and professionalism are unmatched."
+      },
+      "ahmed": {
+        "name": "Ahmed Hassan",
+        "position": "Real Estate Developer",
+        "content": "Outstanding legal support for our real estate transactions. Their attention to detail and thorough approach saved us from potential issues."
+      },
+      "maria": {
+        "name": "Maria Rodriguez",
+        "position": "Family Law Client",
+        "content": "Compassionate and professional handling of my family case. They made a difficult time much easier with their support and expertise."
+      },
+      "mohammed": {
+        "name": "Mohammed Al Rashid",
+        "position": "Corporate Client",
+        "content": "Their deep understanding of UAE corporate law and international business practices has been invaluable for our company's growth and compliance."
+      }
+    }
+  },
+  "contact": {
+    "title": "Schedule a Consultation",
+    "subtitle": "Get Expert Legal Assistance",
+    "description": "Book your free consultation with our experienced legal team. We'll review your case and provide expert guidance tailored to your needs.",
+    "offices": "Our Offices",
+    "sharjahOffice": "Sharjah Office",
+    "dubaiOffice": "Dubai Office",
+    "sharjahAddress": "Apt. 1006, Al Ghanem Business Center",
+    "dubaiAddress": "Apt. 204, Zalfa Building",
+    "email": "Email",
+    "phone": "Phone",
+    "sharjahPhone": "Sharjah",
+    "dubaiPhone": "Dubai"
+  },
+  "appointment": {
+    "title": "Schedule Your Consultation",
+    "selectOffice": "Select Office Location",
+    "selectAttorney": "Select Attorney",
+    "selectDate": "Select Date",
+    "selectTime": "Select Time",
+    "confirm": "Confirm Appointment",
+    "freeConsultation": "Free consultation • 45 minutes • No obligation"
+  },
+  "blog": {
+    "title": "Blog",
+    "subtitle": "Latest Articles",
+    "description": "Stay informed with our latest articles on legal matters, industry insights, and important updates in UAE law.",
+    "readMore": "Read More",
+    "viewAll": "View All Articles",
+    "navigation": {
+      "previous": "Previous",
+      "next": "Next",
+      "goToPage": "Go to page {{number}}"
+    },
+    "categories": {
+      "laborLaw": "Labor Law",
+      "realEstate": "Real Estate",
+      "familyLaw": "Family Law",
+      "corporate": "Corporate Law"
+    },
+    "posts": {
+      "laborLaw": {
+        "title": "Understanding UAE Labor Law: Your Rights as an Employee",
+        "excerpt": "A comprehensive guide to employee rights, benefits, and protections under UAE labor law. Learn about working hours, leave entitlements, and more.",
+        "date": "March 15, 2025",
+        "readTime": "8 min read"
+      },
+      "realEstate": {
+        "title": "Real Estate Investment in Dubai: Legal Considerations",
+        "excerpt": "Essential legal aspects to consider when investing in Dubai's real estate market. From property laws to transaction procedures.",
+        "date": "March 10, 2025",
+        "readTime": "6 min read"
+      },
+      "familyLaw": {
+        "title": "Family Law in the UAE: Marriage, Divorce, and Child Custody",
+        "excerpt": "Navigate the complexities of family law in the UAE with our comprehensive guide to marriage, divorce, and child custody proceedings.",
+        "date": "March 5, 2025",
+        "readTime": "7 min read"
+      },
+      "corporate": {
+        "title": "Corporate Compliance in the UAE: A Complete Guide",
+        "excerpt": "Stay compliant with UAE corporate laws and regulations. Understanding your obligations and maintaining good corporate governance.",
+        "date": "March 1, 2025",
+        "readTime": "10 min read"
+      }
+    }
+  },
+  "footer": {
+    "tagline": "Protecting Your Rights and Interests",
+    "quickLinks": "Quick Links",
+    "practiceAreas": "Practice Areas",
+    "contactInfo": "Contact Info",
+    "address": "Address",
+    "copyright": "Copyright © {{year}} Mahmoud Al Hawai. All rights reserved.",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service",
+    "social": {
+      "linkedin": "Follow us on LinkedIn",
+      "facebook": "Follow us on Facebook",
+      "twitter": "Follow us on Twitter"
+    }
+  },
+  "cta": {
+    "title": "Don't hesitate and call us now for a",
+    "highlight": "free consultation",
+    "description": "If you're facing a legal issue and don't know where to turn, our experienced team is here to help. Contact us now for a free consultation and let us guide you through your legal journey.",
+    "callUs": "Call us at"
+  },
+  "faq": {
+    "title": "FAQ",
+    "subtitle": "Frequently Asked Questions",
+    "description": "Find answers to common questions about our legal services and processes. If you don't find what you're looking for, feel free to contact us directly.",
+    "stillHaveQuestions": "Still have questions?",
+    "hereToHelp": "We're here to help!",
+    "categories": {
+      "general": {
+        "title": "General",
+        "questions": {
+          "specialization": {
+            "question": "What areas of law does your firm specialize in?",
+            "answer": "Our firm specializes in Civil Law, Corporate Law, Family Law, Labor Law, Real Estate Law, and Criminal Law. Our experienced team of attorneys has extensive expertise in each of these areas to provide comprehensive legal solutions."
+          },
+          "consultation": {
+            "question": "How do I schedule a consultation?",
+            "answer": "You can schedule a free consultation by filling out our contact form, calling our offices directly, or sending us an email. We'll respond promptly to arrange a meeting at your convenience at either our Sharjah or Dubai office."
+          },
+          "documents": {
+            "question": "What should I bring to my first consultation?",
+            "answer": "Please bring any relevant documents related to your case, such as contracts, correspondence, court papers, or other important paperwork. This helps us better understand your situation and provide more accurate legal advice."
+          }
+        }
+      },
+      "fees": {
+        "title": "Fees & Payment",
+        "questions": {
+          "pricing": {
+            "question": "What are your fees and payment options?",
+            "answer": "Our fees vary depending on the complexity and nature of your case. We offer transparent pricing and flexible payment options. During your initial consultation, we'll discuss the estimated costs and payment structure for your specific case."
+          },
+          "paymentPlans": {
+            "question": "Do you offer payment plans?",
+            "answer": "Yes, we offer flexible payment plans tailored to your circumstances. We understand that legal services can be a significant investment, and we work with our clients to create manageable payment arrangements."
+          },
+          "initialConsultation": {
+            "question": "Are initial consultations free?",
+            "answer": "Yes, we offer free initial consultations to discuss your case and provide preliminary guidance. This allows us to understand your legal needs and determine how we can best assist you."
+          }
+        }
+      },
+      "process": {
+        "title": "Legal Process",
+        "questions": {
+          "duration": {
+            "question": "How long will my case take?",
+            "answer": "The duration of legal proceedings varies significantly depending on the type and complexity of your case. During your consultation, we'll provide an estimated timeline based on our experience with similar cases and current legal procedures."
+          },
+          "court": {
+            "question": "Will my case go to court?",
+            "answer": "Not all cases require court proceedings. Many disputes can be resolved through negotiation, mediation, or other alternative dispute resolution methods. We'll advise you on the most appropriate approach for your situation."
+          },
+          "outcome": {
+            "question": "What happens if we lose the case?",
+            "answer": "If we receive an unfavorable decision, we'll discuss your options for appeal or alternative resolutions. We always prepare thoroughly for every possibility and will continue to advocate for your best interests."
+          }
+        }
+      },
+      "communication": {
+        "title": "Communication",
+        "questions": {
+          "updates": {
+            "question": "How often will I receive updates about my case?",
+            "answer": "We maintain regular communication with our clients and provide updates at every significant development in your case. You'll also have direct access to your attorney for any questions or concerns."
+          },
+          "languages": {
+            "question": "Do you offer services in multiple languages?",
+            "answer": "Yes, our legal team can provide services in Arabic, English, and several other languages to ensure clear communication and understanding throughout your legal proceedings."
+          },
+          "attorney": {
+            "question": "Can I speak directly with my attorney?",
+            "answer": "Yes, we believe in direct communication between attorneys and clients. You'll have your attorney's contact information and can reach out when needed, though some communications may be handled by our support staff for efficiency."
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,210 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    -webkit-tap-highlight-color: transparent;
+    overflow: hidden;
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+  }
+
+  body {
+    @apply antialiased bg-gray-100;
+    text-rendering: optimizeLegibility;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    position: fixed;
+  }
+
+  #root {
+    height: 100%;
+    width: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    -webkit-overflow-scrolling: touch;
+    position: relative;
+    background-color: inherit;
+    padding-top: 4rem;
+  }
+
+  /* Cursor Styling */
+  * {
+    cursor: default;
+  }
+
+  a, button, select, input[type="submit"], 
+  input[type="button"], input[type="reset"],
+  [role="button"], [role="link"] {
+    cursor: pointer;
+  }
+
+  input[type="text"], input[type="email"], 
+  input[type="password"], input[type="search"],
+  input[type="tel"], input[type="url"],
+  input[type="number"], input[type="date"],
+  input[type="time"], input[type="datetime-local"],
+  textarea, select {
+    cursor: text;
+  }
+
+  [disabled] {
+    cursor: not-allowed !important;
+  }
+
+  /* Resizing cursor for textareas */
+  textarea {
+    cursor: text;
+    resize: vertical;
+  }
+
+  /* Help cursor for title attributes */
+  [title] {
+    cursor: help;
+  }
+
+  /* Dynamic spacing based on viewport */
+  section {
+    @apply py-12 sm:py-16 md:py-20 lg:py-24;
+  }
+
+  /* Responsive container padding */
+  .container {
+    @apply px-4 sm:px-6 lg:px-8 mx-auto;
+    max-width: min(100%, 1280px);
+  }
+
+  /* Responsive typography */
+  h1 {
+    @apply text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold;
+    line-height: 1.2;
+  }
+
+  h2 {
+    @apply text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold;
+    line-height: 1.2;
+  }
+
+  h3 {
+    @apply text-xl sm:text-2xl md:text-3xl font-bold;
+    line-height: 1.3;
+  }
+
+  p {
+    @apply text-base sm:text-lg;
+    line-height: 1.6;
+  }
+}
+
+@layer components {
+  /* Card styles */
+  .card {
+    @apply bg-white rounded-2xl shadow-sm hover:shadow-lg transition-shadow duration-300;
+  }
+
+  /* Button styles */
+  .btn {
+    @apply inline-flex items-center justify-center px-6 py-3 rounded-lg font-semibold transition-colors duration-200;
+  }
+
+  .btn-primary {
+    @apply bg-amber-400 text-gray-900 hover:bg-amber-500;
+  }
+
+  /* Grid layouts */
+  .grid-responsive {
+    @apply grid gap-6 sm:gap-8;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr));
+  }
+}
+
+/* Improve touch targets on mobile */
+@media (max-width: 768px) {
+  button, a {
+    @apply min-h-[44px] min-w-[44px];
+  }
+
+  /* Hide scrollbar on mobile while keeping functionality */
+  ::-webkit-scrollbar {
+    display: none;
+  }
+
+  * {
+    scrollbar-width: none;
+  }
+
+  -ms-overflow-style: none;
+}
+
+/* Safe area insets for modern devices */
+@supports (padding: max(0px)) {
+  .container {
+    padding-left: max(1rem, env(safe-area-inset-left));
+    padding-right: max(1rem, env(safe-area-inset-right));
+  }
+
+  .fixed-bottom {
+    padding-bottom: max(1rem, env(safe-area-inset-bottom));
+  }
+}
+
+/* Animations */
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes scroll-down {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(100%);
+  }
+}
+
+.animate-scroll-down {
+  animation: scroll-down 1.5s ease-in-out infinite;
+}
+
+.animate-fade-in {
+  animation: fade-in 0.3s ease-out forwards;
+}
+
+/* Custom scrollbar for desktop */
+@media (min-width: 769px) {
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply bg-gray-100;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply bg-amber-400 rounded-full;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-amber-500;
+  }
+}
+
+/* Focus styles */
+:focus-visible {
+  @apply outline-none ring-2 ring-amber-400 ring-offset-2;
+}
+
+/* Skip to main content */
+.skip-to-content {
+  @apply sr-only focus:not-sr-only focus:fixed focus:top-4 focus:left-4 focus:z-50 focus:px-4 focus:py-2 focus:bg-amber-400 focus:text-gray-900 focus:rounded-lg;
+}
